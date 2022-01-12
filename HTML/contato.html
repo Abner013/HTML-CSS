@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <ul class="menu">
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="contato.html">Contato</a> </li>
+    </ul>
+
+    <h1 class="center">Entre em contato</h1>
+
+    <div class="container">
+        <div>
+            <form>
+                <label for="Nome">Nome:</label> <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <br>
+                <div id="txtNome"></div>
+                <label for="email">Email:</label> <br>
+                <input type="text" id="Email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
+                <br>
+                <label for="assunto">assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+
+        <div class="ml-50">
+            <p>Rua Papiro do Egito, 370</p>
+            <p>São Paulo - SP</p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.1324013213243!2d-46
+    .45950378570734!3d-23.491740084717467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+    .1!3m3!1m2!1s0x94ce6173609c03e7%3A0x33ebd3adb1f84a95!2sR.%20Papiro-do-Egito%2C%20370%20-
+    %20Jardim%20Nair%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008071-050!5e0!3m2!1spt-BR!2sbr!4v1641838741890!5m2!1spt-
+    BR!2sbr" 
+    width="250" 
+    height="150" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+        </iframe>
+
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div>
+            <a href="https://twitter.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/twitter" alt="Logo do Twitter">
+             </a>
+             
+             <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.jpg" alt="Logo do LinkedIn">
+             </a>
+             
+             <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.jpg" alt="Logo do Intagram">
+             </a>
+        </div>
+        <p>
+            Todos os direitos reservados: <b>Abner Borges</b> 
+        </p>
+        
+    </footer>
+    <script src="../JS/script.js"></script>
+</body>
+</html>

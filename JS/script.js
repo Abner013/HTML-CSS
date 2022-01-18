@@ -1,5 +1,7 @@
 /*
-Case Sensitive = reconhece letras maiusculas e minusculas
+JavaScript é case Sensitive = reconhece letras maiusculas e minusculas
+
+O DOM pode ser acessado por...
 por Tag: getElementByTagName()
 por Id: getElementById()
 por Nome: getElementsByName()
@@ -18,12 +20,13 @@ let mapa = document.querySelector('#mapa')
 nome.style.width = '100%'
 email.style.width = '100%'
 
+//validar o 
 function validaNome() {
 
    let txtNome = document.querySelector('#txtNome')
    if (nome.value.length < 3) {
-      txtNome.innerHTML = 'Nome Inválido'
-      txtNome.style.color = 'red' 
+      txtNome.innerHTML = 'Nome Inválido' //messagem de n/ validação
+      txtNome.style.color = 'red' //cor da messagem
    } else {
       txtNome.innerHTML = 'Nome Válido'
       txtNome.style.color = 'green'
@@ -31,7 +34,7 @@ function validaNome() {
    }
 
 }
-
+// validar o email 
 function validaEmail() {
    let txtEmail = document.querySelector('#txtEmail') 
 
